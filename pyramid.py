@@ -1,9 +1,5 @@
-n=10
-for i in range(0,n):
-    for j in range(0,i+1):
-        print("*",end="")
-    print()
-for i in range(n,0,-1):
+rows=int(input("enter a number"))
+for i in range(rows+1):
     for j in range(1,i+1):
-        print("*",end="")
-    print()
+        print(j*i,end="")
+    print("")
